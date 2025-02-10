@@ -1,7 +1,7 @@
 package;
 
 import se.system.Application;
-import se.ui.elements.TextElement;
+import se.sui.elements.TextElement;
 
 class Main {
 	public static function main() {
@@ -14,7 +14,7 @@ class Main {
 	}
 
 	static function init() {
-		var scene = se.ui.UIScene.current; // UIScene is a root container for ui elements
+		var scene = se.sui.UIScene.current; // UIScene is a root container for ui elements
 		scene.padding = 128;
 
 		var text = new TextElement("Hello, sEngine!", scene);

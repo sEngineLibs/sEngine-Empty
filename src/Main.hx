@@ -11,6 +11,6 @@ class Main {
 	}
 
 	static function init() {
-		
+
 	}
 }
